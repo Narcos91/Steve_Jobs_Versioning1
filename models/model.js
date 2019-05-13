@@ -1,10 +1,11 @@
 const mongoose = require('mongoose');
 
+// Definizione dello schema per la creazione degli oggetti nel DB
 var userSchema = mongoose.Schema({
     name: String,
     surname: String,
-    email: Array,
-    dateOfBirth: Number,
+    email: String,
+    dateOfBirth: String,
     gender: String
 });
 
