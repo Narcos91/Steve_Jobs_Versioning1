@@ -1,0 +1,19 @@
+{
+  "name": "versioning",
+  "version": "1.0.0",
+  "description": "Lavoro di Gruppo per testare in versioning e vari test",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Narcos91/Steve_Jobs_Versioning1.git"
+  },
+  "author": "giulio.biz92@yahoo.it",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Narcos91/Steve_Jobs_Versioning1/issues"
+  },
+  "homepage": "https://github.com/Narcos91/Steve_Jobs_Versioning1#readme"
+}
