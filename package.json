@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Narcos91/Steve_Jobs_Versioning1/issues"
   },
-  "homepage": "https://github.com/Narcos91/Steve_Jobs_Versioning1#readme"
+  "homepage": "https://github.com/Narcos91/Steve_Jobs_Versioning1#readme",
+  "dependencies": {
+    "istanbul": "^0.4.5"
+  }
 }
