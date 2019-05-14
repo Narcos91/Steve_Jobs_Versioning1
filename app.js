@@ -4,6 +4,7 @@ var path = require('path');
 var bodyParser = require('body-parser');
 
 
+
 // Import base routes
 const routes = require('./routes/index');
 const usersRoutes = require('./routes/users');
@@ -50,6 +51,3 @@ app.use(function(err, req, res, next) {
       .json({message: err.message, error: err});
 });
 
-var User = require ('./models/model');
-app.listen (3001)
-module.exports = app;
