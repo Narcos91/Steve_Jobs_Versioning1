@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Lavoro di Gruppo per testare in versioning e vari test",
   "main": "app.js",
+  
   "scripts": {
-    "test": "mocha"
+  	
+    "test"  :"mocha",
+    "pretest": "eslint --ignore-path .gitignore ."
   },
   "repository": {
     "type": "git",
@@ -16,7 +19,10 @@
     "url": "https://github.com/Narcos91/Steve_Jobs_Versioning1/issues"
   },
   "homepage": "https://github.com/Narcos91/Steve_Jobs_Versioning1#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-strongloop": "^2.1.0",
     "istanbul": "^0.4.5"
   }
 }
