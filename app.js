@@ -2,7 +2,6 @@
 const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
-const morgan = require('morgan');
 
 // Import base routes
 const routes = require('./routes/index');
@@ -58,4 +57,5 @@ app.use(function(err, req, res, next) {
       .json({message: err.message, error: err});
 });
 
+app.listen(3000);
 module.exports = app;
